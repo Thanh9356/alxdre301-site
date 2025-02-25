@@ -1,14 +1,17 @@
 site:
-    title: alxdre301
-    start_page: self-intro::index.adoc
+  title: An archive of alxdre301
+  start_page: self-intro::index.adoc
+  robots: disallow
 
 content:
-    sources:
-    - url: .
-      branches: HEAD
-      start_path: self-intro
+  sources:
+  - url: https://github.com/Thanh9356/alxdre301-self-info.git
+    branches: EN
+  - url: https://github.com/Thanh9356/alxdre301-class-notes.git
+    branches: VI
 
 ui:
-    bundle:
-        url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
-        snapshot: true
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./supplemental-ui

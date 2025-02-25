@@ -1,6 +1,0 @@
-= Title
-
-:doctype: article
-:stem:
-
-== Section
