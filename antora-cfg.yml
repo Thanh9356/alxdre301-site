@@ -1,0 +1,14 @@
+site:
+    title: alxdre301
+    start_page: self-intro::index.adoc
+
+content:
+    sources:
+    - url: .
+      branches: HEAD
+      start_path: self-intro
+
+ui:
+    bundle:
+        url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+        snapshot: true
