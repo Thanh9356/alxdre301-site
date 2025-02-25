@@ -1,5 +1,0 @@
-= alxdre301 site
-
-== Introduction
-
-testing
